@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class SystemSampleActivity extends ListActivity {
-	String[] tests = {"NotificationActivity"};
+	String[] tests = {"NotificationActivity", "TimingActivity"};
 	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
