@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 public abstract class SampleListActivity extends ListActivity{
 	
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setListAdapter(new ArrayAdapter<String>(this,
