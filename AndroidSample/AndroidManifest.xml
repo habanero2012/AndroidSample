@@ -27,6 +27,7 @@
         <activity android:name=".ui.UISampleActivity" />
         <activity android:name=".ui.InflateActivity" />
         <activity android:name=".ui.LockScreenActivity" />
+        <activity android:name=".ui.PopupMenuActivity" />
     </application>
 
 </manifest>

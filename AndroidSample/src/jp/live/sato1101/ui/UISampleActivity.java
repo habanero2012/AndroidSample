@@ -5,7 +5,8 @@ import jp.live.sato1101.SampleListActivity;
 public class UISampleActivity extends SampleListActivity {
 	String[] tests = {
 			"InflateActivity",
-			"LockScreenActivity"
+			"LockScreenActivity",
+			"PopupMenuActivity"
 			};
 	
 	@Override
