@@ -6,7 +6,8 @@ public class UISampleActivity extends SampleListActivity {
 	String[] tests = {
 			"InflateActivity",
 			"LockScreenActivity",
-			"PopupMenuActivity"
+			"PopupMenuActivity",
+			"MenuCustomizeActivity"
 			};
 	
 	@Override

@@ -28,6 +28,7 @@
         <activity android:name=".ui.InflateActivity" />
         <activity android:name=".ui.LockScreenActivity" />
         <activity android:name=".ui.PopupMenuActivity" />
+        <activity android:name=".ui.MenuCustomizeActivity" />
     </application>
 
 </manifest>
