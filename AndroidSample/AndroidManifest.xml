@@ -29,6 +29,7 @@
         <activity android:name=".ui.LockScreenActivity" />
         <activity android:name=".ui.PopupMenuActivity" />
         <activity android:name=".ui.MenuCustomizeActivity" />
+        <activity android:name=".ui.AnimationByCodeActivity" />
     </application>
 
 </manifest>

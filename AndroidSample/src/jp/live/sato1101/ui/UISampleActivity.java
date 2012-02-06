@@ -7,7 +7,8 @@ public class UISampleActivity extends SampleListActivity {
 			"InflateActivity",
 			"LockScreenActivity",
 			"PopupMenuActivity",
-			"MenuCustomizeActivity"
+			"MenuCustomizeActivity",
+			"AnimationByCodeActivity"
 			};
 	
 	@Override
