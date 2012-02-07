@@ -6,6 +6,7 @@
 
     <uses-sdk android:minSdkVersion="7" />
     <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -30,6 +31,9 @@
         <activity android:name=".ui.PopupMenuActivity" />
         <activity android:name=".ui.MenuCustomizeActivity" />
         <activity android:name=".ui.AnimationByCodeActivity" />
+        
+        <activity android:name=".network.NetworkSampleActivity" />
+        <activity android:name=".network.SearchActivity" />
     </application>
 
 </manifest>
