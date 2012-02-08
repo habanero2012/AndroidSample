@@ -31,6 +31,7 @@
         <activity android:name=".ui.PopupMenuActivity" />
         <activity android:name=".ui.MenuCustomizeActivity" />
         <activity android:name=".ui.AnimationByCodeActivity" />
+        <activity android:name=".ui.AnimationByXMLActivity" />
         
         <activity android:name=".network.NetworkSampleActivity" />
         <activity android:name=".network.SearchActivity" />
