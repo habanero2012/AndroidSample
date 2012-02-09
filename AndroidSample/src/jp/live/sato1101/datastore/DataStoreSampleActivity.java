@@ -4,7 +4,8 @@ import jp.live.sato1101.SampleListActivity;
 
 public class DataStoreSampleActivity extends SampleListActivity {
 	String[] tests = {
-			"PreferenceSampleActivity"
+			"PreferenceSampleActivity",
+			"UseExternalStorageActivity"
 	};
 	
 	@Override
