@@ -43,6 +43,7 @@
         <activity android:name=".datastore.PreferenceSampleActivity" />
         <activity android:name=".datastore.SettingActivity" />
         <activity android:name=".datastore.UseExternalStorageActivity" />
+        <activity android:name=".datastore.SQLSampleActivity" />
     </application>
 
 </manifest>
