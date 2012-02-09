@@ -35,6 +35,10 @@
         
         <activity android:name=".network.NetworkSampleActivity" />
         <activity android:name=".network.SearchActivity" />
+        
+        <activity android:name=".datastore.DataStoreSampleActivity" />
+        <activity android:name=".datastore.PreferenceSampleActivity" />
+        <activity android:name=".datastore.SettingActivity" />
     </application>
 
 </manifest>

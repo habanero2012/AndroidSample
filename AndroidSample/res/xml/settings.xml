@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:title="Name" android:defaultValue="Default" android:key="name_pref" android:summary="Tell Us Your Name"/>
+    <CheckBoxPreference android:title="Enable More Settings" android:defaultValue="false" android:key="more_pref"/>
+    
+    <PreferenceScreen android:dependency="more_pref" android:key="more_screen" android:title="More Settings">
+        <ListPreference android:key="color_pref" android:title="Favorite Color" android:summary="Choose Your favorite Color" android:entries="@array/color_names" android:entryValues="@array/color_names"/>
+        <PreferenceCategory android:title="Location Settings">
+            <CheckBoxPreference android:summary="Use GPS to Find You" android:title="Use GPS Location" android:defaultValue="true" android:key="gps_pref"/>
+            <CheckBoxPreference android:summary="Use Network to Find You" android:title="Use Network Location" android:defaultValue="true" android:key="network_pref"/>
+        </PreferenceCategory>
+        
+    </PreferenceScreen>
+
+    
+
+</PreferenceScreen>
