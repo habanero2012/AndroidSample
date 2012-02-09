@@ -5,6 +5,7 @@ import jp.live.sato1101.SampleListActivity;
 public class NetworkSampleActivity extends SampleListActivity {
 	String[] tests = {
 			"SearchActivity",
+			"ConnectivityCheckActivity"
 	};
 	
 	@Override
