@@ -6,7 +6,8 @@ public class DataStoreSampleActivity extends SampleListActivity {
 	String[] tests = {
 			"PreferenceSampleActivity",
 			"UseExternalStorageActivity",
-			"SQLSampleActivity"
+			"SQLSampleActivity",
+			"SQLBackupActivity"
 	};
 	
 	@Override

@@ -5,6 +5,7 @@ package jp.live.sato1101.datastore;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
 
@@ -105,7 +106,7 @@ public class BackupTask extends AsyncTask<Integer, Void, Integer>{
 		FileChannel outChannel = null;
 		try {
 		    inChannel = new FileInputStream(source).getChannel();
-		    outChannel = new FileInputStream(dest).getChannel();
+		    outChannel = new FileOutputStream(dest).getChannel();
 		    inChannel.transferTo(0, inChannel.size(), outChannel);
 		} finally {
 			if(inChannel != null) {
